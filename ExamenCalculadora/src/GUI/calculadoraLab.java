@@ -12,6 +12,7 @@ public class calculadoraLab extends javax.swing.JFrame {
     public calculadoraLab() {
         initComponents();
         this.setLocationRelativeTo(null);
+        this.setResizable(false);
 
     }
     private double valorEnMemoria = 0.0;
@@ -393,7 +394,7 @@ public class calculadoraLab extends javax.swing.JFrame {
         // Se muestra el nuevo valor en la pantalla
         txtPantalla.setText(String.valueOf(valorActual));
     }//GEN-LAST:event_btnMasMenosActionPerformed
-
+//Para cada número, se le asigna el valor de este
     private void btn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn8ActionPerformed
         actualizarPantalla("8");
     }//GEN-LAST:event_btn8ActionPerformed
